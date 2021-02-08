@@ -26,6 +26,8 @@
 # See docs/COPYRIGHT.rdoc for more details.
 #++
 
+require_relative "../page"
+
 module Pages
   module Projects
     class Destroy < ::Pages::Page
